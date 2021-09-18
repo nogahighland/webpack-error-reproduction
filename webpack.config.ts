@@ -39,6 +39,6 @@ export default {
   ],
 
   resolve: {
-    extensions: ['.vue', '.ts', '.js']
+    extensions: ['.vue', '.ts', '.js'] // .js が無いと「Module not found: Error: Can't resolve './listToStyles'」エラー
   }
 }
