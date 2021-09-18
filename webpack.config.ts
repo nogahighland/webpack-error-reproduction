@@ -28,7 +28,7 @@ export default {
         loader: 'pug-plain-loader'
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: ['vue-style-loader', 'css-loader', 'sass-loader']
       }
     ]
@@ -39,6 +39,6 @@ export default {
   ],
 
   resolve: {
-    extensions: ['.vue', '.ts']
+    extensions: ['.vue', '.ts', '.js']
   }
 }

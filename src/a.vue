@@ -1,7 +1,7 @@
 <template>
 </template>
 
-<style>
+<style lang='scss' scoped>
 div {
   background-color: #000
 }
